@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Roboto&display=swap');
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+#cen{
+  text-align: center;
+}
+body{
+  min-height: 100vh;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Autour One', cursive  ;
+  background: linear-gradient(to bottom, #e23131, #4f134d);
+}
+.card{
+  background-color: #fff;
+  border-radius:15px;
+  padding:25px;
+  box-shadow: 0 30px 30px -15px;
+  height: 521px;
+  width: 950px;
+}
+p{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+
+}
+ul{
+  list-style: none;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  grid-gap:20px
+
+}
+ul li{
+  width: 35px;
+  height: 35px;
+  background-color: red;
+  transition: transform 0.3;
+  border: 1px solid black;
+}
+
+ul li:hover{
+  transform: scale(1.1);
+}
+#one{
+  background-color: red;
+}
+#two{
+  background-color: rgba(101, 190, 23, 0.961);
+}
+#three{
+  background-color: blue;
+}
+#four{
+  background-color: yellow;
+}
+#five{
+  background-color: violet;
+}
+#six {
+  background-color: rgb(47, 177, 217);
+}
+
+#seven {
+  background-color: orange;
+}
+
+#eight {
+  background-color: rgb(60, 4, 60);
+}
+
+#nine {
+  background-color: pink;
+}
+
+#ten {
+  background-color: green;
+}
+
+#eleven {
+  background-color: cyan;
+}
+
+#twelve {
+  background-color: brown;
+}
+
+#thirteen {
+  background-color: olive;
+}
+
+#fourteen {
+  background-color: grey;
+}
+
+#fifteen {
+  background-color: teal;
+}
