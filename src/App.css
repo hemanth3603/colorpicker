@@ -17,7 +17,7 @@ body{
   font-family: 'Autour One', cursive  ;
   background: linear-gradient(to bottom, #e23131, #4f134d);
 }
-.card{
+.colPic{
   background-color: #fff;
   border-radius:15px;
   padding:25px;

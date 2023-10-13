@@ -11,7 +11,7 @@ export default function ColorPicker() {
     return (
         <div id="cen">
                 <h2 style={{marginBottom:'15px',fontSize:'40px'}}>Pick a color</h2>
-            <div className='card' style={{ backgroundColor: backgroundColor }}>
+            <div className='colPic' style={{ backgroundColor: backgroundColor }}>
                 <ul>
                     <li onClick={() => handleColor('red')} id='one'></li>
                     <li onClick={() => handleColor('rgba(101, 190, 23, 0.961)')} id='two'></li>
